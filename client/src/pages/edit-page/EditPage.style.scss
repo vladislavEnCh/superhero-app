@@ -1,0 +1,26 @@
+.create{
+    margin: 20px auto;
+    background-color: rgb(114, 114, 114);
+    color: #fff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    &_input{
+        margin: 40px 0;
+        input{
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            &:focus{
+                border: none;
+            }
+        }
+    }
+    &_button{
+        margin: 20px 0 0 0;
+    }
+}

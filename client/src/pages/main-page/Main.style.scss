@@ -1,0 +1,32 @@
+.main{
+    
+   &_wrapper{
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height: 800px;
+   }
+   &_pagination{
+      text-align: center;
+      margin: 15px auto;
+      display: block;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+      /* identical to box height, or 20px */
+    
+      /* Gray Dark */
+    
+      color: #5b5b5b;
+      &_arrow {
+        margin: 0 15px;
+        transform: rotate(180deg);
+      }
+   }
+}
+.custom-select {
+   margin: 0 15px;
+   border:none;
+   outline:none;
+ 
+ }
